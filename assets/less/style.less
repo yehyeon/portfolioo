@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,ol,li{list-style: none;}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.sub_menu>li {.tt(#fff); padding:0 5px 0 5px;}
+//페이드인아웃
+ [class^="container"]{
+    position: relative;
+    width: 50%;
+    background-color: #fff;
+}
+
+[class^="image"]{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+
+[class^="container"]:hover [class^="image"] {
+  opacity: 0.3;
+}
+
+[class^="container"]:hover [class^="middle"] {
+  opacity: 1;
+}
+
+.textt {
+  color: #00f;
+  font-size:25px;
+	font-weight:bold;
+  position: absolute;
+  top: 50%;
+ left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle4 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle5 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle6 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+[class^="container"] {margin-top: 200px; float: left; width:33.3%; height:300px;  text-align: center;
+	font-size:30px;  img{width:100%; height:94%;}}
+
+//메뉴
+.qe{
+  display: none; border-left: 1px #ccc dashed; margin-top: 22px; height: 165px; text-align: center; position: relative; line-height: 43px;}
+.sub_menu:hover .qe {display: block;}
+.qw{display: inline-block;  vertical-align: top;}
+
+//호텔 페이드 인아웃
+[class^="hotel"]{
+    position: relative;
+		background-color: #000;
+
+}
+.hoimage {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+[class^="hotel"]:hover .hoimage {
+  opacity: 0.3;
+}
+[class^="hotel"]:hover .honame {
+  color: #f00; font-weight: bold;
+}
