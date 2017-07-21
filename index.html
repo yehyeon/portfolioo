@@ -26,7 +26,7 @@
 							</div>
 						</li>
 
-					 <li class="qw"><a  class="house" href="">guest-house</a>
+					 <li class="qw house"><a  class="house" href="">guest-house</a>
 						 <div>
 							 <ul class="qe">
 									 <li><a href="">view</a></li>
@@ -61,8 +61,8 @@
 								</ul>
 						</div>
 					</li>
-					 <li class="qw"><span class="login"><a href="">log&nbsp;in</a></span></li>
-					 <li class="qw"><span class="join"><a href="">join</a></span></li>
+					 <li class="qw" id="loginn"><span class="login"><a href="">log&nbsp;in</a></span></li>
+					 <li class="qw" id= "joinn"><span class="join"><a href="">join</a></span></li>
 				 </ul>
 			 </div>
 	 </header>
@@ -70,7 +70,7 @@
 
 <!-- 슬라이드 -->
 
-<div class="w3-content w3-display-container" style="margin-top:170px;"  >
+ <div class="w3-content w3-display-container" style="margin-top:170px;"  >
   <img class="mySlides" src="assets/images/seoul.jpg"  alt="mySlides">
   <img class="mySlides" src="assets/images/jeju.jpg" alt="mySlides">
   <img class="mySlides" src="assets/images/busan.jpg"alt="mySlides">
@@ -220,12 +220,14 @@
 			<h1><strong>KOREA RENTAL CAR</strong></h1><p class="bar"></p>
 		</div>
 	</div>
+
+	<div class="carcollect">
 	<figure class="carlistt">
 	<div class="carlist">
 		<div class="car_1">
 			<ul>
-				<li class="car1"><img src="assets/images/car1.jpg" alt="car1"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<img src="assets/images/si.png" alt="car1"></li>
+				<li class="car1" style="margin-top: 60px;"><img src="assets/images/car1.jpg" alt="car1"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img  class="brand" src="assets/images/si.png" alt="car1"></li>
 			</ul>
 		</div>
 			<div class="bonmun">
@@ -247,16 +249,16 @@
 			</div>
 			 <div class="button">
 				<button class="greatvalue">great value</button>
-				<h1 class="dollor" style="color:#e16f20; font-size:30px; text-align:center;     margin-left: -438px;"><br/ >$49/DAY</h1>
+				<h1 class="dollor"><br/ >$49/DAY</h1>
 				<button class="choose">choose</button>
 			</div>
 	</div>
 	<div class="carlist">
 		<div class="car_2">
 			<ul>
-				<li class="car2" style="margin-top: 124px;">
+				<li class="car2" style="margin-top: 60px;">
 					<img src="assets/images/car2.jpg" alt="car2"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<img src="assets/images/si.png" alt="car2"></li>
+					<img  class="brand" src="assets/images/si.png" alt="car2"></li>
 			</ul>
 		</div>
 		 <div class="bonmun">
@@ -278,16 +280,17 @@
 		 </div>
 			 <div class="button">
 				<button class="greatvalue">great value</button>
-				<h1 class="dollor" style="color:#e16f20; font-size:30px; text-align:center;     margin-left: -438px;"><br/ >$58/DAY</h1>
+				<h1 class="dollor"
+				><br/ >$58/DAY</h1>
 				<button class="choose">choose</button>
 			 </div>
 	</div>
 	<div class="carlist">
 		<div class="car_2">
 			<ul>
-				<li class="car2">
+				<li class="car2" style="margin-top: 60px;">
 					<img src="assets/images/car3.jpg" alt="car2"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<img src="assets/images/si.png" alt="car2"></li>
+					<img  class="brand" src="assets/images/si.png" alt="car2"></li>
 			</ul>
 		</div>
 			<div class="bonmun">
@@ -309,7 +312,7 @@
 			</div>
 				<div class="button">
 					<button class="greatvalue">great value</button>
-					<h1 class="dollor" style="color:#e16f20; font-size:30px; text-align:center;   margin-left: -438px;"><br/ >$60/DAY</h1>
+					<h1 class="dollor"><br/ >$60/DAY</h1>
 					<button class="choose">choose</button>
 				</div>
 	</div>
@@ -317,8 +320,8 @@
 	<div class="carlist">
 		<div class="car_4">
 			<ul>
-				<li class="car1"><img src="assets/images/car4.jpg" alt="car1"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<img src="assets/images/si.png" alt="car1"></li>
+				<li class="car1" style="margin-top: 60px;"><img src="assets/images/car4.jpg" alt="car1"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img  class="brand" src="assets/images/si.png" alt="car1"></li>
 			</ul>
 		</div>
 			<div class="bonmun">
@@ -340,15 +343,18 @@
 			</div>
 				<div class="button">
 					<button class="greatvalue">great value</button>
-					<h1 class="dollor" style="color:#e16f20; font-size:30px; text-align:center;     margin-left: -438px;"><br/ >$55/DAY</h1>
+					<h1 class="dollor"><br/ >$55/DAY</h1>
 					<button class="choose">choose</button>
 				</div>
 	</div>
 </figure>
+</div>
 
 <!-- bottom-->
 <footer>
 	<div class="bottom" ></div>
+
+
 		<ul class="bottom1">
 			<li class="let">let's travel</li>
 			<li class="let2">
@@ -361,26 +367,30 @@
 				you to make the dream come true and takethe first step.<br />
 				Not sure where to start?  You can always call one of our<br />
 				 travel consultants and get some complimentary advice!</li>
+
 		</ul>
-		<ul class="middlee">
+
+
+	 <ul class="middlee">
 			<li class="information">information</li>
 			<li class="contact">
 				> &nbsp; &nbsp;contact us<br /> >&nbsp; &nbsp; my page<br />>&nbsp; &nbsp; service</li>
 		</ul>
+
 		<ul class="right">
 			<li class="tags">tags :</li>
 			<li>
-				<button class="flight">flight</button>
-				<button class="cars">cars</button>
-				<button class="hotels" >hotels</button>
+				<button class="flight bt">flight</button>
+				<button class="cars bt">cars</button>
+				<button class="hotels bt" >hotels</button>
 			</li>
 			<li>
-				<button class="booking">booking</button>
-				<button class="travel">travel</button>
+				<button class="booking bt">booking</button>
+				<button class="travel bt">travel</button>
 			</li>
 			<li>
-				<button class="korea">korea</button>
-				<button class="housekorea">guesthousekorea</button>
+				<button class="korea bt">korea</button>
+				<button class="housekorea bt">guesthousekorea</button>
 			</li>
 		</ul>
 </footer>
